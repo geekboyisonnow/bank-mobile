@@ -1,4 +1,10 @@
-.App {
+header {
+  text-align: center;
+  font-size: 2rem;
+}
+
+
+/* .App {
   text-align: center;
 }
 
@@ -29,4 +35,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
