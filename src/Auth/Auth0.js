@@ -1,16 +1,10 @@
-// src/App.js
-// import { BrowserRouter, Route, Link } from 'react-router-dom'
-import { Router, Route, Link } from 'react-router-dom'
-import React, { Component } from 'react';
-import { Navbar, Button } from 'react-bootstrap';
-import './App.css';
-// App.js
-import Auth from './Auth/Auth.js';
-import Home from './Home.js';
+// // src/App.js
 
-// const auth = new Auth();
-// auth.login();
-class App extends Component {
+// import React, { Component } from 'react';
+// import { Navbar, Button } from 'react-bootstrap';
+// import './App.css';
+
+// class Auth0 extends Component {
 //   goTo(route) {
 //     this.props.history.replace(`/${route}`)
 //   }
@@ -35,7 +29,6 @@ class App extends Component {
 //     const { isAuthenticated } = this.props.auth;
 
 //     return (
-//       <Router>
 //       <div>
 //         <Navbar fluid>
 //           <Navbar.Header>
@@ -74,10 +67,8 @@ class App extends Component {
 //           </Navbar.Header>
 //         </Navbar>
 //       </div>
-//       {/* <Link to='Home.js'/> */}
-//       </Router>
 //     );
 //   }
 // }
 
-export default App;
+// export default Auth0;
